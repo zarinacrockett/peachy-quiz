@@ -20,7 +20,7 @@ let questions = [
   },
   {
     question:
-      "What did Joseph uses while trying to sneak into the secret base hiding the Pillar Man?",
+      "how did Joseph sneak into the secret base hiding the Pillar Man?",
     choice1: "Sweet Talk",
     choice2: "Heels",
     choice3: "Drag",
@@ -50,7 +50,7 @@ startGame = () => {
 
 getNewQuestion = () => {
   if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
-    //go to the end page
+    //game over
     return window.location.assign("/end.html");
   }
   questionCounter++;
