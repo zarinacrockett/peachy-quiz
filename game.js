@@ -1,13 +1,28 @@
+// reference question element by grabbing it by it's ID//
+// reference choices element by className//
+//covert choices html collection into an array//
+//use data set attribute to collect 
+
 const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
 const questionCounterText = document.getElementById("questionCounter");
 const scoreText = document.getElementById("score");
+
+
+//create variable for current questions as object//
+//create variable for acceptingAnswers to delay the between questions//
+//create score variable and set to 0//
+//create empty array of available questions//
+
 
 let currentQuestion = {};
 let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
+
+//pass through array of questions in questions array// 
+//create a check to see if the choice is true against answer//
 
 let questions = [
   {
@@ -38,9 +53,55 @@ let questions = [
 ];
 
 //CONSTANTS
-const CORRECT_BONUS = 10;
+
+//reference to tally game score points points//
+//number of questions the user can answser//
+const CORRECT_BONUS = 100;
 const MAX_QUESTIONS = 3;
 
+
+//create start the game function with fat arrow syntax //
+//create reset for question counter to zero.//
+//copy in all questions with spread operator//
+//create function to get new questions =>//
+//use question counter to increment question on by 1//
+//use math floor ( random function) * available questions array dot length//
+//assign to var questionIndex//
+//reference current question from available questions array.
+//reference question inner text to equal current question
+//use for each function =. to interate through choices.//
+//grab choice property and get choice out of current questions//
+//assign variable to ref number from dataset//
+//grab available questions array and use splice to removed finished questions
+//use question index and set splice to 1.
+//set acceptingAnswers to true/
+
+//use for each function to grab each choice//
+
+//add event listener to click to reference each choice clicked/
+//set accepting answers to false and return if not accepting answers/
+ 
+// reference selected choice and selected answer//
+
+//call get new question function//
+
+//create if statement for available question array length = 0 or question counter is at max questions. end game//
+
+//pull string out create var class to apply. make if statement that if selected answers to incorrect and if incorrect is false. 
+
+//apply class to apply to selected choice parent element apple classlist class to apply.//
+
+//use set time out function set callback function to delay 1000ms//
+
+//use increment function to increase score by 100 points for correct answser//
+
+
+
+//return to end game html window.
+
+
+ 
+//call start game function//
 startGame = () => {
   questionCounter = 0;
   score = 0;
