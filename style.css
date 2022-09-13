@@ -36,6 +36,11 @@ h2>span {
 h3 {
     font-size: 2.8rem;
     font-weight: 500;
+    font-weight: bold;
+    color: #28a745;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
 
 
 }
