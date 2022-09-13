@@ -26,7 +26,7 @@ let availableQuestions = [];
 
 let questions = [
   {
-    question: "Who is the main character of JoJo's Bizare Adventure?",
+    question: "Who is the main character of JoJo's Bizarre Adventure?",
     choice1: "Johnathan Joestar",
     choice2: "JoJo",
     choice3: "DIO",
@@ -49,7 +49,51 @@ let questions = [
     choice3: "Miss Joestar",
     choice4: "Mary",
     answer: 4
-  }
+  }, {
+    question:
+      "what is a stand?",
+    choice1: "stance against something political",
+    choice2: "a bug",
+    choice3: "a rug",
+    choice4: "an entity psychicly linked with it's owner ",
+    answer: 4
+  },
+   {
+    question:
+      "what is the character Dio's stand called?",
+    choice1: "the world",
+    choice2: "the sun",
+    choice3: "the moon",
+    choice4: "the stars",
+    answer: 1
+  },
+   {
+    question:
+      "what popular video game references JoJo's Bizarre Adventure?",
+    choice1: "super mario",
+    choice2: "flappy bird",
+    choice3: "street fighter",
+    choice4: "celeste",
+    answer: 3
+  },
+   {
+    question:
+      "which street fighter character is based on Lisa Lisa?",
+    choice1: "rose",
+    choice2: "fern",
+    choice3: "penelope",
+    choice4: "lily",
+    answer: 1
+  },
+   {
+    question:
+      "what is the energy ability that Lisa Lisa is a master of?",
+    choice1: "lighting",
+    choice2: "ripple",
+    choice3: "teleportation",
+    choice4: "cloning",
+    answer: 2
+  },
 ];
 
 //CONSTANTS
@@ -57,7 +101,7 @@ let questions = [
 //reference to tally game score points points//
 //number of questions the user can answser//
 const CORRECT_BONUS = 100;
-const MAX_QUESTIONS = 3;
+const MAX_QUESTIONS = 8;
 
 
 //create start the game function with fat arrow syntax //
