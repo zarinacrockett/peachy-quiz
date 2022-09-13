@@ -22,5 +22,4 @@ Pics pf the actual game.
 
 ![](https://files.slack.com/files-pri/T0351JZQ0-F042A11AMHA/screen_shot_2022-09-13_at_11.54.03_am.png)
 
-![![](https://files.slack.com/files-pri/T0351JZQ0-F0427HFURTL/screen_shot_2022-09-13_at_11.54.12_am.png)
-](![https://](https://))
+![](https://files.slack.com/files-pri/T0351JZQ0-F0427HFURTL/screen_shot_2022-09-13_at_11.54.12_am.png)
